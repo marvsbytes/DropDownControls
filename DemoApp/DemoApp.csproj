@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DropDownControls\DropDownControls.csproj" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Data.DataSetExtensions" />
+    <ProjectReference Include="..\DropDownControls\DropDownControls.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3,36 +3,32 @@
 
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Drawing;
-using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
-using System.Globalization;
 using System.ComponentModel;
+using System.Drawing;
+using System.Globalization;
+using System.Windows.Forms;
 
-namespace DropDownControls {
-
-	/// <summary>
-	/// A <see cref="DataGridView"/> column type based on the 
-	/// <see cref="GroupedComboBox"/> control.
-	/// </summary>
-	/// <remarks>
-	/// <para>
-	/// Unlike the <see cref="DataGridViewComboBoxColumn"/>, the items in the 
-	/// combo box for this column type may only come from a data source. 
-	/// However, you can override the data source for cells on an individual 
-	/// basis.
-	/// </para>
-	/// <para>
-	/// The formatted value type for this column is always 
-	/// <see cref="System.String"/>. You do not have to explicitly set the 
-	/// <see cref="DisplayMember"/>, <see cref="ValueMember"/> or 
-	/// <see cref="GroupMember"/> properties.
-	/// </para>
-	/// </remarks>
-	public class GroupedComboBoxColumn : DropDownColumnBase {
+namespace DropDownControls
+{
+    /// <summary>
+    /// A <see cref="DataGridView"/> column type based on the 
+    /// <see cref="GroupedComboBox"/> control.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Unlike the <see cref="DataGridViewComboBoxColumn"/>, the items in the 
+    /// combo box for this column type may only come from a data source. 
+    /// However, you can override the data source for cells on an individual 
+    /// basis.
+    /// </para>
+    /// <para>
+    /// The formatted value type for this column is always 
+    /// <see cref="System.String"/>. You do not have to explicitly set the 
+    /// <see cref="DisplayMember"/>, <see cref="ValueMember"/> or 
+    /// <see cref="GroupMember"/> properties.
+    /// </para>
+    /// </remarks>
+    public class GroupedComboBoxColumn : DropDownColumnBase {
 
 		/// <summary>
 		/// Gets or sets the name of the property of a list item which provides its display value.

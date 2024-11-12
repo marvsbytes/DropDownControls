@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections;
 
-namespace DropDownControls {
-
-	/// <summary>
-	/// Represents a group with an associated priority.
-	/// </summary>
-	/// <remarks>
-	/// This type is intended to be used in conjunction with <see cref="PriorityComparer"/>.
-	/// </remarks>
-	public class PriorityGroup : IEquatable<PriorityGroup>, IComparable {
+namespace DropDownControls
+{
+    /// <summary>
+    /// Represents a group with an associated priority.
+    /// </summary>
+    /// <remarks>
+    /// This type is intended to be used in conjunction with <see cref="PriorityComparer"/>.
+    /// </remarks>
+    public class PriorityGroup : IEquatable<PriorityGroup>, IComparable {
 
 		/// <summary>
 		/// Represents a group with an empty heading and default priority.

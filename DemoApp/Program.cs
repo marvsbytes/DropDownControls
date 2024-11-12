@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
-namespace DemoApp {
-	static class Program {
+namespace DemoApp
+{
+    static class Program {
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>

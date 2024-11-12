@@ -2,35 +2,29 @@
 // Bradley Smith - 2015/4/14
 
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
-using System.Globalization;
-using System.ComponentModel;
 
-namespace DropDownControls {
-
-	/// <summary>
-	/// A <see cref="DataGridView"/> column type based on the 
-	/// <see cref="ComboTreeBox"/> control.
-	/// </summary>
-	/// <remarks>
-	/// <para>
-	/// Both the underlying values and formatted values of cells in the column 
-	/// are path strings. If the column is bound to a data source, the data 
-	/// source values must also be path strings. You can decide which options 
-	/// to use when constructing path strings.
-	/// </para>
-	/// <para>
-	/// Some of the more advanced features of the <see cref="ComboTreeBox"/> 
-	/// control (such as checkboxes) are not supported by this column type.
-	/// </para>
-	/// </remarks>
-	public class ComboTreeBoxColumn : DropDownColumnBase {
+namespace DropDownControls
+{
+    /// <summary>
+    /// A <see cref="DataGridView"/> column type based on the 
+    /// <see cref="ComboTreeBox"/> control.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Both the underlying values and formatted values of cells in the column 
+    /// are path strings. If the column is bound to a data source, the data 
+    /// source values must also be path strings. You can decide which options 
+    /// to use when constructing path strings.
+    /// </para>
+    /// <para>
+    /// Some of the more advanced features of the <see cref="ComboTreeBox"/> 
+    /// control (such as checkboxes) are not supported by this column type.
+    /// </para>
+    /// </remarks>
+    public class ComboTreeBoxColumn : DropDownColumnBase {
 
 		/// <summary>
 		/// Gets or sets the index of the default image to use for nodes when expanded.

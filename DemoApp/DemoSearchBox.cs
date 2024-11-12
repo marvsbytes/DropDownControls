@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Data;
-using System.IO;
 using System.Diagnostics;
+using System.IO;
 
-namespace DemoApp {
+using DropDownControls;
 
-	public class DemoSearchBox : DropDownSearchBox {
+namespace DemoApp
+{
+
+    public class DemoSearchBox : DropDownSearchBox {
 
 		DataTable _table;
 

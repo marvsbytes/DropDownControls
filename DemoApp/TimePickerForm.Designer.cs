@@ -1,4 +1,6 @@
-﻿namespace DemoApp {
+﻿using DropDownControls;
+
+namespace DemoApp {
 	partial class TimePickerForm {
 		/// <summary>
 		/// Required designer variable.

@@ -1,23 +1,16 @@
 ﻿// DataGridView Column Types for Drop-Down Controls
 // Bradley Smith - 2015/4/14
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
-using System.Globalization;
-using System.ComponentModel;
 
-namespace DropDownControls {
-
-	/// <summary>
-	/// Base class for custom <see cref="DataGridView"/> column types.
-	/// </summary>
-	[ToolboxBitmapAttribute(typeof(DataGridViewComboBoxColumn), "DataGridViewComboBoxColumn.bmp")]
+namespace DropDownControls
+{
+    /// <summary>
+    /// Base class for custom <see cref="DataGridView"/> column types.
+    /// </summary>
+    [ToolboxBitmapAttribute(typeof(DataGridViewComboBoxColumn), "DataGridViewComboBoxColumn.bmp")]
 	public abstract class DropDownColumnBase : DataGridViewColumn {
 
 		/// <summary>
@@ -30,7 +23,7 @@ namespace DropDownControls {
 		/// Constructor.
 		/// </summary>
 		protected DropDownColumnBase() {
-			BufferedPaintingSupported = BufferedPainting.BufferedPainter<ComboBoxState>.IsSupported();
+			BufferedPaintingSupported = BufferedPainter<ComboBoxState>.IsSupported();
 		}
 	}
 

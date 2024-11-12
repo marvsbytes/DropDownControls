@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 
-namespace BufferedPainting {
-
+namespace DropDownControls
+{
     /// <summary>
     /// Attaches to a System.Windows.Forms.Control and provides buffered 
     /// painting functionality.

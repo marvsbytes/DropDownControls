@@ -5,7 +5,7 @@
 	  <UseWindowsForms>true</UseWindowsForms>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Title>Drop-Down Controls for .NET</Title>
-	  <Version>1.1.5</Version>
+	  <Version>1.1.5.2</Version>
 	  <Authors>BradSmith1985, marvsbytes</Authors>
 	  <Description>Drop-Down Controls for .NET - https://www.brad-smith.info/blog/projects/dropdown-controls</Description>
 	  <Copyright>Copyright (c) 2015, Bradley Smith</Copyright>
